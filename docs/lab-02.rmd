@@ -1,0 +1,38 @@
+---
+title: "Lab 2"
+author: "Daniel Weinstein"
+date: "June 11, 2021"
+output: html_document
+    theme: darkly
+---
+
+```{r setup, include=FALSE warning=FALSE}
+library
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Title 
+
+Lab 2 Geog 13
+
+```{r code01, echo= TRUE}
+df = data.frame(x = c(1:10))
+y = c(100:109)
+```
+
+## Second
+### Third
+#### Fourth
+
+## Table 1: 
+
+Counties with Most Cumulative Cases per Capita.
+
+### Table 2: 
+
+5 Counties with most new cases per capita.
+
+
+#### Part 2 Question 5: 
+
+Scaling the population allowed us to get a "summary" of the cases within the past week, but to an extent it disguised the data from some states. For example, states with smaller populations were scaled smaller which means that they appeared to have fewer cases, even though the proportion of Covid-19 cases to the total population may have been much larger than in a highly populated state like California or New York. 
