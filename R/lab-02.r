@@ -97,6 +97,13 @@ p1 = home %>%
        y = "Cases",
        caption = "Lab 2, GEOG 13")
 
+# Question 3
+
+readr::read_csv("county-centroids (2).csv")
+
+
+
+
 
 
 
